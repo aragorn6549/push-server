@@ -8,13 +8,13 @@ app.use(express.json());
 
 // ВСТАВЬ СЮДА СВОИ КЛЮЧИ ИЗ ШАГА 1
 const vapidKeys = {
-  publicKey: 'ВСТАВЬ_СЮДА_СВОЙ_PUBLIC_KEY',
-  privateKey: 'ВСТАВЬ_СЮДА_СВОЙ_PRIVATE_KEY'
+  publicKey: 'BHX3bIZ-0cN2e6JHITJDlZz7A5gBqLrT9Db34tGSkla1UH0-yJxtBmEFcT07L4S_hIKOUlm8C0V0xPWlzM47UDA',
+  privateKey: 'Kk5bEY3_1SX4Z6eszQzGL2-WdT_qZC7a0Tdhqabtwm4'
 };
 
 // Настраиваем web-push с нашими ключами
 webpush.setVapidDetails(
-  'mailto:твой-email@gmail.com', // Твой email
+  'mailto:aragorn6549narlas@gmail.com', // Твой email
   vapidKeys.publicKey,
   vapidKeys.privateKey
 );
